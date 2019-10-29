@@ -1,24 +1,21 @@
-package nl.han.oose;
+package nl.han.oose.vragen;
 
 import java.util.List;
 
-public class OpenVraag extends Vraag {
+public abstract class Vraag {
+    String vraag;
     private List<String> antwoorden;
 
-    public OpenVraag(String vraag, List<String> antwoorden) {
-        super(vraag);
+    public Vraag(String vraag, List<String> antwoorden) {
+        this.vraag = vraag;
         this.antwoorden = antwoorden;
     }
 
-    @Override
-    public void stelVraag() {
-        System.out.println(vraag);
-    }
+    public abstract void stelVraag(int nummer);
 
-    @Override
     public boolean controleerAntwoord(String input) {
         for (String antwoord : antwoorden) {
-            if (input.equals(antwoord)) {
+            if (input.toLowerCase().equals(antwoord.toLowerCase())) {
                 return true;
             }
         }

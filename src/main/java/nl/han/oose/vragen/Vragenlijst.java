@@ -1,4 +1,4 @@
-package nl.han.oose;
+package nl.han.oose.vragen;
 
 import java.util.List;
 
@@ -7,5 +7,5 @@ public interface Vragenlijst {
 
     List<Vraag> getRandomVragen();
 
-    String getThemaNaam();
+    String getVolledigThema();
 }

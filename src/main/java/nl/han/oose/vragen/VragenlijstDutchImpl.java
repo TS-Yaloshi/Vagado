@@ -1,4 +1,4 @@
-package nl.han.oose;
+package nl.han.oose.vragen;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +39,7 @@ public class VragenlijstDutchImpl implements Vragenlijst {
         return returnLijst;
     }
 
-    public String getThemaNaam() {
-        return this.thema.getNaam();
+    public String getVolledigThema() {
+        return thema.getThema() +" - "+ thema.getSubThema();
     }
 }

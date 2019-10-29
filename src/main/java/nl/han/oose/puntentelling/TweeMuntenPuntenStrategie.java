@@ -1,9 +1,10 @@
-package nl.han.oose;
+package nl.han.oose.puntentelling;
 
 public class TweeMuntenPuntenStrategie implements PuntenStrategie {
+
     @Override
-    public int berekenPunten(Vraag vraag) {
-        return 1;
+    public int berekenScore(int aantalGoed) {
+        return aantalGoed*100;
     }
 
     @Override
