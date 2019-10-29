@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Spel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Spel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/puntentelling/PuntenStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/puntentelling/PuntenStrategie.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

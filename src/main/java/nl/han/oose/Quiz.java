@@ -31,8 +31,6 @@ public class Quiz {
         this.stelVragen(vragenlijstQuiz);
         stopwatch.stop();
         long tijd = stopwatch.getTime(TimeUnit.SECONDS);
-
-
         int score = puntenStrategie.berekenScore(aantalGoed);
         int verdiendeMunten = puntenStrategie.berekenMunten(aantalGoed);
 

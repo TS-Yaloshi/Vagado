@@ -38,8 +38,7 @@ public class Spel {
     }
 
     private Speler getSpelerByName(String spelerNaam) throws PlayerNotFoundException {
-        for (Speler speler : spelers
-        ) {
+        for (Speler speler : spelers) {
             if (speler.getNaam().toLowerCase().equals(spelerNaam.toLowerCase())) {
                 return speler;
             }
