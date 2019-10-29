@@ -1,13 +1,12 @@
 package nl.han.oose;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Speler {
     private String naam;
     private int saldo;
     private List<Vragenlijst> vragenlijstList = new ArrayList<>();
+    private Map<String, Integer> lifetimeBest = new HashMap<>();
 
     public Speler(String naam, int saldo) {
         this.naam = naam;
@@ -33,5 +32,20 @@ public class Speler {
 
     public void voegMuntenToe(int verdiendeMunten) {
         this.saldo += verdiendeMunten;
+    }
+
+    public boolean checkLifetimeBest(String vragenlijstNaam, int aantalGoed) {
+        if (lifetimeBest.containsKey(vragenlijstNaam)) {
+            int currentBest = lifetimeBest.get(vragenlijstNaam);
+            if (currentBest < aantalGoed) {
+                lifetimeBest.replace(vragenlijstNaam, aantalGoed);
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            lifetimeBest.put(vragenlijstNaam, aantalGoed);
+            return true;
+        }
     }
 }

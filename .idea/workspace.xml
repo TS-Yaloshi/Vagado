@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="Main (uncleaned) code implementation of all relevant classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Meerkeuzevraag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/OpenVraag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/PuntenStrategie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Thema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/TweeMuntenPuntenStrategie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vraag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vragenlijst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/VragenlijstDutchImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nl/han/oose/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vagado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vagado.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vragenlijst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vragenlijst.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572264848555</updated>
       <workItem from="1572264850575" duration="740000" />
-      <workItem from="1572268351997" duration="10851000" />
+      <workItem from="1572268351997" duration="11578000" />
+      <workItem from="1572308271839" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1572268591600</created>
@@ -108,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572268628875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Main (uncleaned) code implementation of all relevant classes: Vagado, Quiz, Speler, Meerkeuzevraag, OpenVraag, PuntenStrategie, TweeMuntenPuntenStrategie, Thema, Vraag, Vragenlijst.">
+      <created>1572279321919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572279321919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -128,6 +132,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="Main (uncleaned) code implementation of all relevant classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main (uncleaned) code implementation of all relevant classes" />
+    <MESSAGE value="Main (uncleaned) code implementation of all relevant classes: Vagado, Quiz, Speler, Meerkeuzevraag, OpenVraag, PuntenStrategie, TweeMuntenPuntenStrategie, Thema, Vraag, Vragenlijst." />
+    <MESSAGE value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface." />
   </component>
 </project>

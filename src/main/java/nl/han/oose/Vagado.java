@@ -16,10 +16,12 @@ public class Vagado {
     private static void kiesMenu() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welkom in het menu.");
-        System.out.println("Typ 1 om een nieuwe quiz te beginnen.");
+        System.out.println("Typ 1 om een nieuwe quiz te beginnen of exit om het spel af te sluiten.");
         String input = scanner.nextLine();
         if (input.equals("1")) {
             speler.createQuiz();
+        } else if (input.equals("exit")) {
+            return;
         }
         kiesMenu();
     }
@@ -75,7 +77,7 @@ public class Vagado {
 
         Thema thema = new Thema("Sport");
 
-        Vragenlijst vragenlijst = new Vragenlijst("Sport - Voetbal", vraagList, thema);
+        Vragenlijst vragenlijst = new VragenlijstDutchImpl("Sport - Voetbal", vraagList, thema);
         speler = new Speler("Jantje", 100);
         speler.addVragenlijst(vragenlijst);
 
