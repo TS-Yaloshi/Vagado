@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/VragenlijstDutchImpl.java" afterDir="false" />
+    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vagado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vagado.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vragenlijst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vragenlijst.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +80,8 @@
       <updated>1572264848555</updated>
       <workItem from="1572264850575" duration="740000" />
       <workItem from="1572268351997" duration="11578000" />
-      <workItem from="1572308271839" duration="4124000" />
+      <workItem from="1572308271839" duration="4170000" />
+      <workItem from="1572312810307" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1572268591600</created>
@@ -110,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572279321919</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface, exit function.">
+      <created>1572312537434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572312537435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +135,7 @@
     <MESSAGE value="Main (uncleaned) code implementation of all relevant classes" />
     <MESSAGE value="Main (uncleaned) code implementation of all relevant classes: Vagado, Quiz, Speler, Meerkeuzevraag, OpenVraag, PuntenStrategie, TweeMuntenPuntenStrategie, Thema, Vraag, Vragenlijst." />
     <MESSAGE value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface." />
+    <MESSAGE value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface, exit function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface, exit function." />
   </component>
 </project>
