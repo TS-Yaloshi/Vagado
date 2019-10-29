@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="Added readme.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
       <workItem from="1572264850575" duration="740000" />
       <workItem from="1572268351997" duration="11578000" />
       <workItem from="1572308271839" duration="4170000" />
-      <workItem from="1572312810307" duration="109000" />
+      <workItem from="1572312810307" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1572268591600</created>
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572312537435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added readme.">
+      <created>1572312931689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572312931689</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +142,7 @@
     <MESSAGE value="Main (uncleaned) code implementation of all relevant classes: Vagado, Quiz, Speler, Meerkeuzevraag, OpenVraag, PuntenStrategie, TweeMuntenPuntenStrategie, Thema, Vraag, Vragenlijst." />
     <MESSAGE value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface." />
     <MESSAGE value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface, exit function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added timer to quiz, lifetimebest to speler, Vragenlijst as interface, exit function." />
+    <MESSAGE value="Added readme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added readme." />
   </component>
 </project>
