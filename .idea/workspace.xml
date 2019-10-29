@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="Main (uncleaned) code implementation of all relevant classes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Spel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/exceptions/PlayerNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Meerkeuzevraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/Meerkeuzevraag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/OpenVraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/OpenVraag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/PuntenStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/PuntenStrategie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" afterDir="false" />
+    <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Thema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/Thema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/TweeMuntenPuntenStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/TweeMuntenPuntenStrategie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vagado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/Vraag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Vragenlijst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/Vragenlijst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/VragenlijstDutchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/VragenlijstDutchImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572268628875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ff wat aangepast">
+      <created>1572357907118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572357907118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="Main (uncleaned) code implementation of all relevant classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main (uncleaned) code implementation of all relevant classes" />
+    <MESSAGE value="ff wat aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="ff wat aangepast" />
   </component>
 </project>

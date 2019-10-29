@@ -7,13 +7,13 @@ import java.util.*;
 public class Speler {
     private static final int START_SALDO = 100;
     private String naam;
-    private int saldo;
+    private int munten;
     private List<Vragenlijst> vragenlijsten = new ArrayList<>();
     private Map<Vragenlijst, Integer> lifetimeBest = new HashMap<>();
 
     public Speler(String naam) {
         this.naam = naam;
-        saldo = START_SALDO;
+        munten = START_SALDO;
     }
 
     public void addVragenlijst(Vragenlijst lijst) {
@@ -62,7 +62,7 @@ public class Speler {
     }
 
     public void voegMuntenToe(int verdiendeMunten) {
-        this.saldo += verdiendeMunten;
+        this.munten += verdiendeMunten;
     }
 
     public boolean checkLifetimeBest(Vragenlijst vragenlijst, int nieuweScore) {
