@@ -34,7 +34,6 @@ public class Speler {
         System.out.println("_______________________");
         System.out.print("--> ");
 
-
         boolean vragenlijstNietGevonden = true;
 
         while (vragenlijstNietGevonden) {
@@ -43,8 +42,14 @@ public class Speler {
                 if (input < vragenlijsten.size() && input >= 0) {
                     vragenlijstNietGevonden = false;
                     var vragenlijst = vragenlijsten.get(input);
-                    Quiz quiz = new Quiz(vragenlijst);
-                    quiz.start(this);
+                    var performance = vragenlijst.start();
+                    int aantalGoed = performance[0];
+                    int score = performance[1];
+
+                    updateMunten(aantalGoed);
+                    updateScore(vragenlijst, score);
+
+
                 } else {
                     System.out.println();
                     System.out.println("Vragenlijst niet gevonden..");
@@ -61,8 +66,18 @@ public class Speler {
 
     }
 
-    public void voegMuntenToe(int verdiendeMunten) {
-        this.munten += verdiendeMunten;
+    private void updateMunten(int aantalGoed) {
+        if (aantalGoed >=10) {
+            System.out.println("2 munten toegevoegd!");
+            munten += 2;
+        }
+    }
+
+    private void updateScore(Vragenlijst vragenlijst, int score) {
+        if (checkLifetimeBest(vragenlijst, score)) {
+            System.out.println("Nieuwe Lifetime Best!");
+            setLifetimeBest(vragenlijst, score);
+        }
     }
 
     public boolean checkLifetimeBest(Vragenlijst vragenlijst, int nieuweScore) {

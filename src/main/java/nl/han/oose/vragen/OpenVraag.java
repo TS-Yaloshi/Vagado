@@ -10,6 +10,6 @@ public class OpenVraag extends Vraag {
 
     @Override
     public void stelVraag(int nummer) {
-        System.out.println("Vraag "+ nummer +": "+vraag);
+        System.out.println("Vraag "+ nummer +" - "+vraag);
     }
 }

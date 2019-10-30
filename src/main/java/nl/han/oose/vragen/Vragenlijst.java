@@ -5,7 +5,7 @@ import java.util.List;
 public interface Vragenlijst {
     String getNaam();
 
-    List<Vraag> getRandomVragen();
+    int[] start();
 
     String getVolledigThema();
 }
