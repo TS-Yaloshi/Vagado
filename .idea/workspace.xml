@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68625306-9d34-42d6-8e01-611d12478729" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/Speler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/puntentelling/PuntenStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/puntentelling/PuntenStrategie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/puntentelling/TweeMuntenPuntenStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/puntentelling/TweeMuntenPuntenStrategie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/OpenVraag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/OpenVraag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/Vragenlijst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/Vragenlijst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/VragenlijstDutchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/han/oose/vragen/VragenlijstDutchImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -53,9 +47,6 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="nl.han.oose" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="nl.han.oose.exceptions" />
     </key>
@@ -107,6 +98,7 @@
       <workItem from="1572286115566" duration="202000" />
       <workItem from="1572337826065" duration="7651000" />
       <workItem from="1572352771275" duration="24000" />
+      <workItem from="1572435010150" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1572268591600</created>
@@ -129,12 +121,12 @@
       <option name="project" value="LOCAL" />
       <updated>1572357907118</updated>
     </task>
-    <task id="LOCAL-00004" summary="ff wat aangepast">
-      <created>1572358015167</created>
+    <task id="LOCAL-00004" summary="Fixed typos, deleted Shop">
+      <created>1572361155344</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1572358015167</updated>
+      <updated>1572361155344</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -159,6 +151,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="Main (uncleaned) code implementation of all relevant classes" />
     <MESSAGE value="ff wat aangepast" />
-    <option name="LAST_COMMIT_MESSAGE" value="ff wat aangepast" />
+    <MESSAGE value="Fixed typos, deleted Shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typos, deleted Shop" />
   </component>
 </project>
