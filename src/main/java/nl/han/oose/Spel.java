@@ -13,7 +13,7 @@ public class Spel {
         this.spelers = spelers;
     }
 
-    public void kiesMenu(Speler speler) {
+    private void kiesMenu(Speler speler) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("______________________");
         System.out.println("<--  Main Menu  -->");
