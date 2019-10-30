@@ -46,12 +46,12 @@ public class VragenlijstDutchImpl implements Vragenlijst {
         return new int[]{aantalGoed, score};
     }
 
-    public String getNaam() {
-        return this.naam;
+    public String getThemaNaam() {
+        return thema.getThema();
     }
 
-    public String getVolledigThema() {
-        return thema.getThema() +" - "+ thema.getSubThema();
+    public String getNaam() {
+        return this.naam;
     }
 
     private List<Vraag> getRandomVragen() {

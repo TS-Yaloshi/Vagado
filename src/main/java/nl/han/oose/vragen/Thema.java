@@ -2,18 +2,12 @@ package nl.han.oose.vragen;
 
 public class Thema {
     private String thema;
-    private String subThema;
 
-    public Thema(String thema, String subThema) {
+    public Thema(String thema) {
         this.thema = thema;
-        this.subThema = subThema;
     }
 
     public String getThema() {
         return thema;
-    }
-
-    public String getSubThema() {
-        return subThema;
     }
 }

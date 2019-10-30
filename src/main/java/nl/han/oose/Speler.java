@@ -27,7 +27,7 @@ public class Speler {
 
         int index = 1;
         for (Vragenlijst lijst: vragenlijsten) {
-            System.out.println(index + ". " + lijst.getNaam() + "   (" + lijst.getVolledigThema() + ").");
+            System.out.println(index + ". " + lijst.getNaam() + "   (" + lijst.getThemaNaam() + ").");
             index++;
         }
 
@@ -80,7 +80,7 @@ public class Speler {
         }
     }
 
-    public boolean checkLifetimeBest(Vragenlijst vragenlijst, int nieuweScore) {
+    private boolean checkLifetimeBest(Vragenlijst vragenlijst, int nieuweScore) {
         if (lifetimeBest.containsKey(vragenlijst)) {
             int oudeScore = lifetimeBest.get(vragenlijst);
             return oudeScore < nieuweScore;
@@ -89,7 +89,7 @@ public class Speler {
         }
     }
 
-    public void setLifetimeBest(Vragenlijst vragenlijst, int score) {
+    private void setLifetimeBest(Vragenlijst vragenlijst, int score) {
         if (lifetimeBest.containsKey(vragenlijst)) lifetimeBest.replace(vragenlijst, score);
 
         lifetimeBest.put(vragenlijst, score);
